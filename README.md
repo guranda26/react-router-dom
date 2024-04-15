@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Harry Potter Fact Guide with React Router Dom
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application is a Harry Potter Fact Guide that allows users to explore various details about the beloved fictional character, Harry Potter. Built using React and `react-router-dom`, the app features multiple pages showcasing Harry Potter's photo, basic information, specific facts identified by unique IDs, and a user-friendly error page for non-existent routes.
+
+
+## Features
+
+- **Main Page (`/`)**: Displays Harry Potter's photo and name, providing a welcoming main view.
+- **About Page (`/about`)**: Contains general information about Harry Potter, offering insights into his background and character traits.
+- **Fact Page (`/:factId`)**: Dynamically displays information based on a specified fact ID. If the fact ID does not exist, the page will inform the user that the fact could not be found.
+- **Error Page**: Displays a "Page Not Found" message if the user navigates to a route that does not exist.
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+- Node.js (at least v12.x)
+- npm (typically comes with Node.js)
 
 ## Available Scripts
 
